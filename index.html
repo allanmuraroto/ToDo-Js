@@ -13,7 +13,7 @@
     <script src="js/scripts.js" defer></script>
 </head>
 <body>
-    <div class="todo-container">
+    <div class="todo-container"> <!-- criar um container para colocar tudo -->
         <header>
             <h1>ToDo</h1>
         </header>
@@ -26,7 +26,7 @@
                 </button>
             </div>
         </form>
-        <form id="edit-form">
+        <form id="edit-form" class="hide">
             <p>Edite sua tarefa</p>
             <div class="form-control">
                 <input type="text" id="edit-input">
@@ -56,8 +56,8 @@
             </div>
         </div>
         <div id="todo-list">
-            <div class="todo">
-                <h3>Estou trabalhando agora</h3>
+            <div class="todo done">
+                <h3>Alimentar o GIT</h3>
                 <button class="finish-todo">
                     <i class="fa-solid fa-check"></i>
                 </button>
