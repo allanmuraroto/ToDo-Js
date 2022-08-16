@@ -53,5 +53,13 @@ todoForm.addEventListener("submit", (e) => {
         saveTodo(inputValue);
     }
     
-    
 })
+
+document.addEventListener("click", (e) =>{
+    const targetEl = e.target;
+
+    if(targetEl.classlist.contains("finish-todo"))
+    {
+        console.log("Cliqueiii")
+    }
+});
